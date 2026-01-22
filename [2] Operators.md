@@ -1,6 +1,6 @@
 **Operators**
 
-**1. Arithmetic Operators**<br>
+**1. Arithmetic Operators**
 - [+] Addition (num_a + num_a)
 - [-] Subtraction (num_a - num_b)
 - [*] Multiplication (num_a * num_b)
@@ -23,32 +23,32 @@ int main()
 ```
 
 **2. Relational Operators**<br>
-- [==]
-- [\>]
-- [\>=]
-- [<]
-- [<=]
-- [!=]
+- ==
+- \>
+- \>=
+- <
+- <=
+- !=
 
 **3. Logical Operators**<br>
-- [&&] Logical AND
-- [||] Logical OR
-- [!] Logical NOT
+- Logical AND (&&)
+- Logical OR (||)
+- Logical NOT (!)
 
 **4. Bitwise Operators**<br>
-- [&] Binary AND 
-- [|] Binary OR 
-- [^] Binary XOR 
-- [<<] Left Shift 
-- [\>\>] Right Shift 
-- [~] One's Complement 
+- Binary AND (&)
+- Binary OR (|)
+- Binary XOR (^)
+- Left Shift (<<)
+- Right Shift (\>\>)
+- One's Complement (~)
 
 **5. Assignment Operators**<br>
-- [=] Assignment
-- [+=] Add and Assignment
-- [-=] Subtract and Assignment
-- [*=] Multiply and Assignment
-- [/=] Divide and Assignment
+- Assignment (=)
+- Add and Assignment (+=)
+- Subtract and Assignment (-=)
+- Multiply and Assignment (*=)
+- Divide and Assignment (/=)
 
-**6. Ternary or Conditional Operators**<br>
+**6. Ternary or Conditional Operators**
 - Expression1 ? Expression2: Expression3

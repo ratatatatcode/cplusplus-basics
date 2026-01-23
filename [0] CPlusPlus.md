@@ -8,7 +8,7 @@ According to [GeeksforGeeks](https://www.geeksforgeeks.org/cpp/c-plus-plus/), C+
 Following the tradition of most programmers, let us begin with "Hello World."
 
 Open your IDE or [OnlineGDB](https://www.onlinegdb.com/) and run this code,
-```c++
+```cpp
 #include <iostream>
 
 int main()

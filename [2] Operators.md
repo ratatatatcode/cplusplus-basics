@@ -9,7 +9,7 @@
 - [++] Increment (pre-increment: ++num, post-increment: num++)
 - [--] Decrement (pre-decrement: --num, post-decrement: num--)
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 

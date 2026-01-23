@@ -8,7 +8,6 @@
 - [%] Modulo Operation (num_a % 2)
 - [++] Increment (pre-increment: ++num, post-increment: num++)
 - [--] Decrement (pre-decrement: --num, post-decrement: num--)
-
 ```cpp
 #include <iostream>
 using namespace std;
@@ -40,17 +39,50 @@ int main()
 ```
 
 **2. Relational Operators**<br>
-- [==]
-- [\>]
-- [\>=]
-- [<]
-- [<=]
-- [!=]
+- [==] Is Equal To
+- [\>] Greater Than
+- [\>=] Greater Than or Equal To
+- [<] Less Than
+- [<=] Less Than or Equal To
+- [!=] Not Equal To
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num_a = 1, num_b = 2;
+    // cout will print either 0 (false) or 1 (true).
+    cout << (num_a == num_b) << endl; // Output: 0
+    cout << (num_a > num_b) << endl; // Output: 0
+    cout << (num_a >= num_b) << endl; // Output: 0
+    cout << (num_a < num_b) << endl; // Output: 1
+    cout << (num_a <= num_b) << endl; // Output: 1
+    cout << (num_a != num_b) << endl; // Output: 1
+
+    return 0;
+}
+```
 
 **3. Logical Operators**<br>
-- [&&] Logical AND
-- [||] Logical OR
-- [!] Logical NOT
+- [&&] Logical AND (true && true)
+- [||] Logical OR (true || false - at least one is true)
+- [!] Logical NOT ()
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    bool bool_a = true, bool_b = false;
+    // cout will print either 0 (false) or 1 (true).
+    cout << (bool_a && bool_b) << endl; // Output: 0
+    cout << (bool_a || bool_b) << endl; // Output: 1
+    cout << (!bool_a) << endl; // Output: 0
+
+    return 0;
+}
+```
 
 **4. Bitwise Operators**<br>
 - [&] Binary AND 

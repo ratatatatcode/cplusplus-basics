@@ -6,8 +6,8 @@
 - [*] Multiplication (num_a * num_b)
 - [/] Division (num_a / num_b)
 - [%] Modulo Operation (num_a % 2)
-- [++] Increment (++num, num++)
-- [--] Decrement (--num, num--)
+- [++] Increment (pre-increment: ++num, post-increment: num++)
+- [--] Decrement (pre-decrement: --num, post-decrement: num--)
 
 ```c++
 #include <iostream>
@@ -15,8 +15,25 @@ using namespace std;
 
 int main()
 {
-    int num_a = 1, num_b = 2;
-    cout << num_a + num_b; // Output: 3
+    int num_a = 4, num_b = 2;
+    cout << num_a + num_b << endl; // Output: 6
+    cout << num_a - num_b << endl; // Output: 2
+    cout << num_a * num_b << endl; // Output: 8
+    cout << num_a / num_b << endl; // Output: 2
+    cout << num_a % num_b << endl; // Output: 0
+
+    num_a++;
+    cout << num_a << endl; // Output: 5
+    num_b--;
+    cout << num_b << endl; // Output: 1
+
+    // Tricky Part of Increment: pre-increment affects the condition, post-increment doesn’t (yet)
+    int test_a = 5;
+    if (++test_a == 6) cout << "True"; // test_a value: 6
+    cout << endl;
+    int test_b = 5;
+    if (test_b++ == 6) cout << "True"; // test_b value: 5
+    else cout << "False";
 
     return 0;
 }

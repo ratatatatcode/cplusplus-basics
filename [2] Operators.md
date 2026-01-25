@@ -100,7 +100,7 @@ int main()
 - [/=] Divide and Assignment
 
 **6. Ternary or Conditional Operators**
-- Expression1 ? Expression2: Expression3
+- condition ? expression_if_true : expression_if_false
 ```cpp
 #include <iostream>
 using namespace std;

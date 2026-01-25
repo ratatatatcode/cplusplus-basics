@@ -101,3 +101,15 @@ int main()
 
 **6. Ternary or Conditional Operators**
 - Expression1 ? Expression2: Expression3
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int age = 21;
+    age >= 18 ? cout << "Adult" : cout << "Kid";
+
+    return 0;
+}
+```

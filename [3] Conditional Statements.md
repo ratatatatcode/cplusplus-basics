@@ -16,7 +16,7 @@ Should we include printing the number itself in an else if statement? Definitely
 
 Instead, by using a final else statement, any number that does not meet the first three conditions will simply print the number itself.
 
-> “I first check divisibility by both 3 and 5 to handle FizzBuzz correctly. Then I check divisibility by 3 or 5 individually. If none of the conditions match, I print the number itself.”
+> I first check divisibility by both 3 and 5 to handle FizzBuzz correctly. Then I check divisibility by 3 or 5 individually. If none of the conditions match, I print the number itself.
 
 ```cpp
 #include <iostream>
@@ -35,4 +35,5 @@ int main()
 
     return 0;
 }
+
 ```

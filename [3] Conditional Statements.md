@@ -7,7 +7,7 @@ Input an integer and determine whether it should be printed as "Fizz", "Buzz", "
 - If a number is divisible by both 3 and 5, print "FizzBuzz"
 - Otherwise, print the number itself
 
-**What is my thought process?**
+**What is my thought process?**<br>
 First, I will check if the number is divisible by both 3 and 5. If this check is done later, numbers like 15 and 30 would print "Fizz" or "Buzz" instead of "FizzBuzz".
 
 Next, I will use else if. When the condition in the if statement (FizzBuzz) is false, the code inside the else if block will be executed. In these conditions, we check whether the number is divisible by 3 or 5.
@@ -37,3 +37,4 @@ int main()
 }
 
 ```
+

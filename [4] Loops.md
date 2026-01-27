@@ -13,6 +13,7 @@ int main()
     cout << "6 is an even number." << endl;
     cout << "7 is an odd number." << endl;
     cout << "8 is an even number." << endl;
+    ...
 
     return 0;
 }
@@ -46,4 +47,5 @@ int main()
 
     return 0;
 }
+
 ```

@@ -19,7 +19,7 @@ int main()
 }
 ```
 
-Here's how the **loop** comes in handy. I will show you an example and try to run this code by yourself.
+Here's how a **loop** comes in handy. I will show you an example and try running this code yourself.
 ```cpp
 #include <iostream>
 using namespace std;
@@ -49,3 +49,4 @@ int main()
 }
 
 ```
+
